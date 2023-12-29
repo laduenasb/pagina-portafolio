@@ -15,6 +15,12 @@ aside {
 	padding-bottom: 0;
 	background-color: #222629;
 	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: fixed;
+	top: 0;
+	left: 0;
 }
 
 #nombre-aside h1{
@@ -57,3 +63,41 @@ aside nav ul li a {
 	justify-content: space-between;
 }
 
+.fa-house-chimney, .fa-pencil, .fa-bookmark, .fa-person-shelter, .fa-envelope {
+	font-size: 20px;
+}
+
+/* Estilos de los iconos redes sociales barra lateral izquierda */
+
+
+.redes-sociales ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	padding-left: 0;
+}
+
+.redes-sociales ul a {
+	text-decoration: none;
+}
+
+.redes-sociales ul li {
+	margin-right: 10px;
+}
+
+.fa-github, .fa-linkedin {
+	font-size: 30px;
+	color: white;
+}
+
+.bottom {
+	padding-bottom: 10px;
+}
+
+/* Estilos de la barra lateral derecha main */
+
+main {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
