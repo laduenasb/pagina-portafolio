@@ -1,0 +1,59 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	display: flex;
+	box-sizing: border-box;
+}
+/* Estilos barra lateral izquierda cabecera */
+
+aside {
+	min-width: 300px;
+	width: 20%;
+	height: 100vh;
+	padding: 20px;
+	padding-bottom: 0;
+	background-color: #222629;
+	color: white;
+}
+
+#nombre-aside h1{
+	margin-bottom: 0;
+	margin-top: 16px;
+}
+
+#nombre-aside p {
+	margin-top: 5px;
+	margin-bottom: 16px;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header span .foto-perfil {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+/* Estilos secciones barra lateral izquierda */
+
+aside nav ul{
+	list-style: none;
+}
+
+aside nav ul li {
+	margin: 20px 0px;
+}
+
+aside nav ul li a {
+	text-decoration: none;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+}
+
