@@ -21,6 +21,7 @@ aside {
 	position: fixed;
 	top: 0;
 	left: 0;
+	overflow-y: auto;
 }
 
 #nombre-aside h1{
@@ -97,7 +98,8 @@ aside nav ul li a {
 /* Estilos de la barra lateral derecha main */
 
 main {
-	position: absolute;
-	top: 0;
-	right: 0;
+	/* margin-left: 30%; */
+	margin-left: 350px;
+	padding: 20px;
+	width: 70%;
 }
