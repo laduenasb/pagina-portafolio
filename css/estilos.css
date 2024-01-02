@@ -137,3 +137,66 @@ main {
 #contacto ul li a {
 	text-decoration: none;
 }
+
+/* Estilos formulario de contacto */
+
+.info-contacto {
+	min-width: 240px;
+}
+
+.info-contacto ul {
+	text-align: left;
+	margin-left: 10px;
+	padding-left: 10px;
+}
+
+.info-contacto ul li {
+	font-size: 16px;
+}
+
+.formulario {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	grid-gap: 20px;
+	/* margin: auto; */
+}
+
+.formulario form {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.formulario textarea {
+	grid-column: span 2;
+	font-size: 16px;
+	padding: 10px;
+	border: 1px solid #ecebeb;
+	border-radius: 10px;
+}
+
+.formulario .boton-enviar {
+	grid-column: span 2;
+	width: 140px;
+	height: 40px;
+	margin: 10px auto;
+	border-radius: 10px;
+	border: none;
+	color: white;
+	background-color: #222629;
+	cursor: pointer;
+	transition: all 900ms ease-in-out;
+	font-size: 16px;
+}
+
+.formulario .boton-enviar:hover {
+	background-color: grey;
+}
+
+.campo {
+	font-size: 16px;
+	padding: 10px;
+	border: 1px solid #ecebeb;
+	border-radius: 10px;
+}
+
