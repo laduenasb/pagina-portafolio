@@ -198,5 +198,22 @@ main {
 	padding: 10px;
 	border: 1px solid #ecebeb;
 	border-radius: 10px;
+	margin-bottom: 5px;
 }
 
+/* media queries */
+
+@media(max-width: 1023px) {
+	.formulario form {
+		grid-template-columns: 1fr;
+	}
+	.formulario .campo {
+		grid-column: span 2;
+	}
+}
+
+@media(max-width: 768px) {
+	.formulario {
+		grid-template-columns: 1fr;
+	}
+}
