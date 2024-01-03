@@ -173,6 +173,7 @@ main {
 	padding: 10px;
 	border: 1px solid #ecebeb;
 	border-radius: 10px;
+	outline: 0;
 }
 
 .formulario .boton-enviar {
@@ -199,6 +200,7 @@ main {
 	border: 1px solid #ecebeb;
 	border-radius: 10px;
 	margin-bottom: 5px;
+	outline: 0;
 }
 
 /* media queries */
