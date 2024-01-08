@@ -237,6 +237,16 @@ main {
 	background-color: grey;
 }
 
+/* Estilos para el menú hamburguesa en pantallas grandes */
+.menu-hamburguesa {
+	display: none;
+}
+
+/* Estilos para el menú aside en pantallas grandes */
+.menu-aside {
+	display: block;
+}
+
 /* media queries */
 
 @media(max-width: 1023px) {
@@ -251,5 +261,42 @@ main {
 @media(max-width: 768px) {
 	.formulario {
 		grid-template-columns: 1fr;
+	}
+	/* Estilos para el menú hamburguesa en pantallas pequeñas */
+	.menu-hamburguesa {
+			display: block;
+			cursor: pointer;
+			position: absolute;
+			top: 20px;
+			left: 20px;
+			z-index: 1000;
+	}
+	.open .barra{
+		background-color: white; /* Cambia el color al hacer clic */
+	}
+	.barra {
+			width: 30px;
+			height: 3px;
+			background-color: #333;
+			margin: 6px 0;
+			transition: 0.4s;
+	}
+	main {
+		margin: 0;
+		padding: 20px;
+		padding-bottom: 0;
+		width: 100%;
+	}
+	
+	aside {
+		width: 95%;
+		height: auto;
+		position: relative;
+	}
+	body {
+		flex-direction: column;
+	}
+	.top header span {
+		margin-left: 50px;
 	}
 }
